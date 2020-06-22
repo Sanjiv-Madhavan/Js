@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Budget App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header id="heading">
+            <div class="logo">
+                <img src="Images/logo.jpg">
+            </div>
+            <div class="title">
+                <h2>BUDGET PLANNER</h2> 
+            </div>
+        </header>
+        
+        
+        <section class="container">
+            <div id="budget-feedback">
+                
+            </div>
+            <div class="row">
+                <div class="form" id="budget-form">
+                    <form action="">
+                        <div class="query">
+                            <h4>ENTER MONTHLY BUDGET</h4>
+                        </div>
+                        <div class="inputs" id="budget-input">
+                            <input type="number" name="budget" id="budget" step="0.01">
+                        </div>
+                        <button type="submit" class="buttons">Submit</button>
+                    </form>
+                </div>
+    
+                <div class="summary">
+                    <div id="budget-summary">
+                        <div class="basics">
+                            <h2>BUDGET</h2>
+                        </div>
+                        <div class="summary-images">
+                            <img src="Images/dollarbill.jpg" width="60px" height="50px" alt="budget">
+                        </div>
+                        <div class="dollar-sign">
+                            <span id="budget-amount-dollar">$</span>
+                            <span id="budget-amount">0</span>
+                        </div>
+                    </div>
+
+                    <div id="expenses-summary">
+                        <div class="basics">
+                            <h2>EXPENSES</h2>
+                        </div>
+                        <div class="summary-images">
+                            <img src="Images/expense.jpg" width="60px" height="50px" alt="budget">
+                        </div>
+                        <div class="dollar-sign">
+                            <span id="expenses-amount-dollar">$</span>
+                            <span id="expenses-amount">0</span>
+                        </div>
+                    </div>
+                    
+                    <div id="balance-summary">
+                        <div class="basics">
+                            <h2>BALANCE</h2>
+                        </div>
+                        <div class="summary-images">
+                            <img src="Images/logo.jpg" width="45px" height="50px" alt="budget">
+                        </div>
+                        <div class="dollar-sign">
+                            <span id="balance-amount-dollar">$</span>
+                            <span id="balance-amount">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+        <section class="container">
+            <div id="expenses-feedback"></div>
+            <div class="row">
+                <div class="form" id="expenses-form">
+                    <form action="">
+                        <div class="query">
+                            <h4>ENTER YOUR EXPENSE</h4>
+                        </div>
+                        <div class="inputs" id="expense-name-input">
+                            <input type="text" name="expense-name" id="expense-name">
+                        </div>
+                        <br>
+                        <div class="query">
+                            <h4>ENTER EXPENSE AMOUNT</h4>
+                        </div>
+                        <div class="inputs" id="expense-amount-input">
+                            <input type="number" name="expense-amount" id="expense-amount" step="0.01">
+                        </div>
+                        <button type="submit" class="buttons">Submit</button>
+                    </form>
+                </div>
+
+                <!-- <div class="expenses-title-summary"> 
+                    <div id="expenses-title-header">
+                        <h3>Expense Title</h3>
+                    </div>
+                    <div id="expenses-title">
+                        
+                    </div>                      
+                </div>
+
+                <div class="expenses-value-summary">
+                    <div id="expenses-value-header">
+                        <h3>Expense Value</h3>
+                    </div>
+                    <div id="expenses-value">
+                         
+                    </div>                      
+                </div>-->
+
+                <div id="expenses-list">
+                    <div id="expenses-title-header">
+                        <h5 class="list-item">
+                            Expenses Title
+                        </h5>
+                        <h5 class="list-item">
+                            Expenses Value
+                        </h5>
+                        <h5 class="list-item">
+
+                        </h5>
+                    </div>
+                </div>
+                <!-- <div class="expenses-summary">
+                    <h3>
+                        ${expenseItem.title}
+                    </h3>
+                    <h3>
+                        ${expenseItem.amount}
+                    </h3>
+                    <a href="#" class="edit-icon" id="">
+                        <i class='far fa-edit' style='font-size:24px'></i>
+                    </a>    
+                    <a href="#" class="delete-icon" id="">
+                        <i class='far fa-trash-alt' style='font-size:24px'></i>
+                    </a>
+                </div>  -->
+            </div>
+        </section>
+
+
+    </body>
+    <script src="Js/app.js"></script>
+</html>

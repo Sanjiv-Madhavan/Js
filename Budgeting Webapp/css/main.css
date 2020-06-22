@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+#heading
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: dodgerblue;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.title
+{
+    color: white;
+    font-weight: 400;
+    font-size: large;
+}
+
+.row
+{
+
+    display: flex;
+    align-items: center;
+}
+
+
+.container
+{
+    padding: 5px;
+    width: 100%;
+}
+
+.budget-feedback
+.expenses-feedback
+{
+    display: none;
+}
+
+
+.showItem
+{
+    padding: 20px;
+    height: 20px;
+    background-color: pink;
+    display: block;
+}
+
+.form
+{
+    padding: 50px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 50%;
+    width: 45%;
+}
+
+.basics
+{
+    color: #4f4746;
+}
+
+/* #budget-form
+{
+    width: 45%;
+} */
+
+.summary
+{
+    /* width: 50%; */
+    display: flex;
+    padding: 20px;
+    flex: 0 0 33.33%;
+    width:45%;
+}
+
+#budget-summary
+{
+    padding: 20px;
+}
+
+#expenses-summary
+{
+    padding: 20px;
+}
+
+#balance-summary
+{
+    padding: 20px;
+}
+
+#budget-amount
+{
+    color: green;
+}
+
+#budget-amount-dollar
+{
+    color: green;
+}
+
+#expenses-amount
+{
+    color: red;
+}
+
+#expenses-amount-dollar
+{
+    color: red;
+}
+
+.dollar-sign{
+    display: flex   ;
+}
+
+.expenses-list
+{
+    padding: 20px;
+    transform: translate(0% , -100%);
+}
+
+.expenses-title-summary
+{
+    padding: 20px;
+    transform: translate(0% , -50%);
+}
+
+.expenses-value-summary
+{
+    padding: 20px;
+    transform: translate(0% , -50%);
+}
+
+#expenses-title-header
+{
+    padding: 20px;
+    color: #4f4746;
+    display: flex;
+    /* align-items: flex-end; */
+    /* transform: translate(0% , -100%); */
+}
+
+.list-item
+{
+    display: inline-block;
+    font-size: medium;
+    flex: 0 33.33%;
+    padding: 10px;
+}
+
+
+
+#expenses-value-header
+{
+    padding: 20px;
+    color: #4f4746;
+}
+
+#expenses-title
+{
+    padding: 20px;
+}
+
+#expenses-value
+{
+    padding: 20px;
+}
+
+
+.summary-images
+{
+    padding: 10px 10px 10px 0px;
+}
+
+.buttons
+{
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
+.inputs
+{
+    padding: 10px 10px 10px 0px;
+}
+
+.dollar-sign
+{
+    font-size: xx-large;
+}
+
+
+.expense
+{
+    color: red;
+    text-transform: capitalize;
+}
+
+.expenses-summary
+{
+    /* padding: 20px; */
+}
+
+.expenses-summary-item
+{
+    display: flex;
+    padding: 20px;
+}
